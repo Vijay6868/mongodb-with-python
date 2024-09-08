@@ -25,3 +25,5 @@ for document in cursor:
     pprint.pprint(document)
     print()
 print("# documents found" + str(num_docs))
+
+client.close()
